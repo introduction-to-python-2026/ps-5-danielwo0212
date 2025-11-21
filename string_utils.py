@@ -1,3 +1,6 @@
+import importlib, string_utils
+importlib.reload(string_utils)
+
 def split_before_each_uppercases(formula):
   split_formula = []
   start = 0
